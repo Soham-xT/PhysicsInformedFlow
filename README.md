@@ -1,12 +1,6 @@
 # PhysicsInformedFlow
 This repository contains Physics-Informed Neural Networks (PINNs) for simulating laminar incompressible flow in a pipe using DeepXDE and TensorFlow. 
-
-## Features
-- **DeepXDE Implementation**: Uses DeepXDE to solve the governing equations efficiently for dde model.
-- **TensorFlow Implementation**: Implements PINNs from scratch using TensorFlow for flexibility.
-- **Data Visualization**: Generates streamlines and heatmaps to visualize the predicted velocity field.
-- **Comparison of Approaches**: Compares the effectiveness of both implementations.
-- 
+  
 ## Physics Informed Networks: 
 Neural Network used to solve supervised learning tasks while making sure physical laws are valid. The approach, known as physics-informed neural networks (PINNs), involves minimizing the residual of the equation evaluated at various points within the domain. Boundary conditions are incorporated either by introducing soft constraints with corresponding boundary data values in the minimization process or by strictly enforcing the solution with hard constraints.
 
